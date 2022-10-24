@@ -1,0 +1,15 @@
+.product-details{
+    border: 1px solid gray;
+}
+
+.Overview{
+    border-bottom: 1px solid gray;
+}
+.Semrush_Details{
+    border-top: 1px solid gray;
+    margin-top: 10px;
+}
+.Seller_Details{
+    border-top: 1px solid gray;
+    padding: 5px;
+}

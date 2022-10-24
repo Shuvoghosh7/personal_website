@@ -40,9 +40,13 @@ const Banner = () => {
                     </div>
 
                 </div>
-                <div>
-                    <Button variant="outline-warning" className='me-3'>Contact Semrush</Button>
-                    <Button variant="success" className='me-3'>Try it for free</Button>
+                <div className='d-lg-flex d-md-flex'>
+                    <div className='me-3 warning-btn'>
+                        <Button variant="outline-warning" className='me-3 w-100'>Contact Semrush</Button>
+                    </div>
+                    <div className='me-3 success-btn'>
+                        <Button variant="success" className='me-3 w-100'>Try it for free</Button>
+                    </div>
                 </div>
             </div>
 
