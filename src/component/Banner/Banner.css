@@ -1,0 +1,25 @@
+.banner{
+    width: 100%;
+}
+.banner-part{
+    border: 2px solid gray;
+  
+}
+.title-image{
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+.title-image img{
+    width: 180px;
+    border: 2px solid gray;
+    padding: 20px;
+    background-color: white;
+}
+.react-icon{
+    color:crimson;
+}
+
+.reviews{
+    color: #5a39a2;
+}
