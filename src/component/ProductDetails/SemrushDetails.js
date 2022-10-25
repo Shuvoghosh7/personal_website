@@ -19,7 +19,7 @@ const SemrushDetails = () => {
                 <p>Our software helps marketers in companies of all sizes and industries to optimize their online visibility across key channels (from Search to Social Media and PR) and create engaging content for their users. Our reach data allows to discover great opportunities for growth, while workflow and tracking solutions help users to constantly run experiments and accurately measure results.</p>
                 <div className='Seller_Details'>
                     <h5>Seller Details</h5>
-                    <div className='d-flex justify-content-around'>
+                    <div className='d-lg-flex d-md-flex justify-content-around'>
                         <div>
                             <div>
                                 <FaSellcast /> <span>Seller</span>
@@ -59,7 +59,7 @@ const SemrushDetails = () => {
     return (
         <div>
             <h1>Semrush Details</h1>
-            <div className='mx-3 d-flex justify-content-between '>
+            <div className='mx-3 d-lg-flex d-md-flex justify-content-between '>
                 <div>
                     <div>
                         <CgWebsite /><span className='ms-2'>Website</span>

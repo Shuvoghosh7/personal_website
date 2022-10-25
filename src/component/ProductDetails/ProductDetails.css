@@ -13,3 +13,17 @@
     border-top: 1px solid gray;
     padding: 5px;
 }
+
+.Semrush_Features{
+    border: 1px solid gray;
+}
+.ficon{
+    color: orangered;
+}
+
+
+@media only screen and (max-width: 600px){
+    .Semrush_Features{
+        margin-top: 10px;
+    }
+}

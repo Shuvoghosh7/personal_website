@@ -23,7 +23,7 @@ const ProductDetails = () => {
         <div className='mb-5'>
             <h1 className='mx-2 my-3'>Semrush Reviews & Product Details</h1>
             <div class="row mx-4">
-                <div class="col-lg-8 product-details">
+                <div class="col-lg-9 product-details">
                     <h3 className='Overview py-3'>Semrush Overview</h3>
                     <div className='ms-3'>
                         <h4>What is Semrush?</h4>
@@ -37,8 +37,8 @@ const ProductDetails = () => {
                         <SemrushDetails/>  
                     </div>
                 </div>
-                <div class="col-lg-4">
-                    <SemrushFeatures />
+                <div class="col-lg-3">
+                    <SemrushFeatures/>
                 </div>
             </div>
         </div>
