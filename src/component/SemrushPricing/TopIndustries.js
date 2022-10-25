@@ -1,11 +1,25 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
+import ReactApexChart from "react-apexcharts";
+import { ApexOptions } from "apexcharts";
 const TopIndustries = () => {
-    return (
-        <div>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse natus ipsa provident aspernatur accusamus, deserunt sunt quisquam illo soluta. Ducimus, id! Vero qui facilis ipsam voluptatibus cupiditate, necessitatibus aliquid ducimus.
-        </div>
-    );
+  const [data, setData] = useState({
+    series: [72, 24, 30,91,51,63],
+    options: {
+      labels: ["Marketing","Software","Information","Internet","Retail","Other"],
+    }
+  })
+
+  return (
+    <div>
+      <h6>Top Industries Represented</h6>
+      <ReactApexChart className="lg:w-full"
+        options={data.options}
+        series={data.series}
+        type="donut"
+      />
+
+    </div>
+  );
 };
 
 export default TopIndustries;

@@ -5,7 +5,7 @@ const SemrushPricing = () => {
     return (
         <div className='mx-4 my-4'>
             <div className='row'>
-                <div className='Semrush_Pricing col-9'>
+                <div className='Semrush_Pricing col-lg-9 col-md-9'>
                     <h4 className='ms-4'>Semrush Pricing</h4>
                     <div className='d-lg-flex d-md-flex justify-content-between gap-3 mx-4'>
                         <div className='card mb-3'>
@@ -28,7 +28,7 @@ const SemrushPricing = () => {
                     </div>
                     <p>See all 5 <a href="https://www.g2.com/products/semrush/pricing" target="blank">Semrush pricing levels</a></p>
                 </div>
-                <div className='col-3'>
+                <div className='col-lg-3 col-md-3 top_Industries'>
                     <TopIndustries />
                 </div>
             </div>

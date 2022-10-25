@@ -21,9 +21,15 @@
     font-size: 20px;
     font-weight: 300;
 }
+.top_Industries{
+    border: 2px solid gray;
+}
 @media only screen and (max-width: 600px){
     .card{
         width: 170px;
         gap: 10px;
+    }
+    .top_Industries{
+        margin-top: 10px;
     }
 }
