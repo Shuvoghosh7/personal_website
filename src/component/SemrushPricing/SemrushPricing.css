@@ -1,0 +1,29 @@
+.Semrush_Pricing{
+    border: 2px solid gray;
+}
+
+.card{
+    width: 180px;
+    border: 2px solid gray;
+}
+.card-title{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 7px;
+}
+.price{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.month{
+    font-size: 20px;
+    font-weight: 300;
+}
+@media only screen and (max-width: 600px){
+    .card{
+        width: 170px;
+        gap: 10px;
+    }
+}
