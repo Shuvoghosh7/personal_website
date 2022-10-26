@@ -1,0 +1,38 @@
+.footer{
+    background-color: #555;
+   margin-top: -15px;
+}
+.footer-content p,h3{
+   color: white;
+   font-weight: bold;
+}
+.footer-icon{
+    font-size: 40px;
+    text-align: center;
+}
+.twiter{
+    background-color: white;
+    color: aqua;
+    padding: 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.facebook{
+    background-color:blue;
+    color:white;
+    padding: 1px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.linkedin{
+    background-color:darkcyan;
+    color:white;
+    padding: 1px;
+    border-radius: 5px;
+}
+.copy_Right{
+    text-align: center;
+    border-top: 1px solid white;
+    margin: 20px;
+    padding: 10px;
+}

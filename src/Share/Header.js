@@ -34,9 +34,8 @@ const Header = () => {
                             </NavDropdown>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets">More deets</Nav.Link>
                             <Nav.Link eventKey={2} href="#memes">
-                                Dank memes
+                            <button type="button" class="btn btn-outline-success">Join or Sing in</button>
                             </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
